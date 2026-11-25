@@ -1,0 +1,36 @@
+{
+  "bootstrap_B": 10000,
+  "bootstrap_seed": 20261125,
+  "cluster_unit": "scenario_id (all seeds of a sampled scenario kept)",
+  "n_scenarios": 40,
+  "estimator": "pooled row mean per condition; contrasts paired by scenario",
+  "ci": "percentile 95%",
+  "p_value": "two-sided bootstrap, floor 1/B",
+  "holm_family": "primary measures x all contrasts, subset=all (slopes corrected separately)",
+  "primary_measures": [
+    "probe_insitu",
+    "probe_clean",
+    "rule_false_answer",
+    "judge_deceptive"
+  ],
+  "baseline": "persistent|neutral|0",
+  "natural": "none|incentive|0",
+  "judge_measures_note": "judge measures use only judged rows (1396); unjudged never imputed",
+  "lenadj": {
+    "fit_on": "persistent|neutral|0",
+    "model": "probe ~ 1 + log(n_scored) + truncated",
+    "coefs": {
+      "probe_clean": {
+        "intercept": -3.3831356527241754,
+        "log_len": -0.9693266661672459,
+        "truncated": 0.2655511815575661
+      },
+      "probe_insitu": {
+        "intercept": -3.3831356527241754,
+        "log_len": -0.9693266661672459,
+        "truncated": 0.2655511815575661
+      }
+    },
+    "note": "sensitivity only - length is on the causal path of steering"
+  }
+}

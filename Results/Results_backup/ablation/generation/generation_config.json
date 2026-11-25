@@ -1,0 +1,20 @@
+{
+  "direction_sha16": "f14e75ed4a307674",
+  "layer": 21,
+  "positions": "all (prefill + every decode step)",
+  "conditions": [
+    "incentive_abl21",
+    "neutral_abl21"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "microbatch": 8,
+  "max_new": 80,
+  "sampling": "seed 0 greedy; seeds 1-3 T=0.7 top_p=0.95; run_seed = seed*1000 + microbatch index",
+  "baselines": "Exp 1 neutral+0 (persistent|neutral|0) and incentive+0 (none|incentive|0)",
+  "reproduction_gate": "microbatch 0, seeds 0 and 1, both baselines: text and IDs identical"
+}

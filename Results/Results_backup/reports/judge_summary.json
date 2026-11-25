@@ -1,0 +1,13 @@
+{
+  "analysis_dataset": "/vol/causal_steering/analysis/behavioural_evaluation.csv",
+  "coverage": {
+    "rows": 1920,
+    "judged": 1396,
+    "unjudged": 524,
+    "rule_clear": 1681,
+    "rule_unclear": 239,
+    "rule_false_answers": 293
+  },
+  "judged_balance_chi2_p": 0.47,
+  "note": "524 rows unjudged because the OpenRouter key hit its limit; judging order was randomised and coverage is balanced across conditions (66-78%, chi-square p=0.47). Unjudged rows are left empty, not imputed. Rule-based yes/no truthfulness covers all rows with a clear yes/no."
+}

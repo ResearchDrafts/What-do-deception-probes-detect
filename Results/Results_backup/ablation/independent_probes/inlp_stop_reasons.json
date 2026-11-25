@@ -1,0 +1,10 @@
+{
+  "C=0.0001|baseline|header": "reached K",
+  "C=0.0001|baseline|reply": "reached K",
+  "C=0.0001|after_d_hat|header": "reached K",
+  "C=0.0001|after_d_hat|reply": "reached K",
+  "C=0.01|baseline|header": "reached K",
+  "C=0.01|baseline|reply": "reached K",
+  "C=0.01|after_d_hat|header": "reached K",
+  "C=0.01|after_d_hat|reply": "reached K"
+}

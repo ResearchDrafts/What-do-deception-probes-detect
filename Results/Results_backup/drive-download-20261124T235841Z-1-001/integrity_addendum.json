@@ -1,0 +1,8 @@
+{
+ "text_reproduced": 1.0,
+ "ids_identical": 0.9958333333333333,
+ "rows_ids_differ": 8,
+ "probe_change_from_exact_ids_mean": -0.003564402487182594,
+ "probe_change_from_exact_ids_maxabs": 0.04447650606079101,
+ "truncated_share": 0.19947916666666668
+}

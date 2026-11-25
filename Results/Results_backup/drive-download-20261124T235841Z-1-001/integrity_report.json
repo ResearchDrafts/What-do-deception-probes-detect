@@ -1,0 +1,29 @@
+{
+ "raw_rows": 1920,
+ "duplicate_rows": 0,
+ "rows_after_dedup": 1920,
+ "conditions": 12,
+ "all_conditions_have_160": true,
+ "all_condition_seed_units_have_40": true,
+ "missing_scenarios": {},
+ "train_scenarios_leaked_into_generations": [],
+ "label_consistency": true,
+ "retok_exact_match_rate": 0.9958333333333333,
+ "retok_abs_diff_max": 1,
+ "probe_rows_matched": 1920,
+ "scored_count_consistent": true,
+ "max_condition_shift_from_dropping_eot": 0.07384403242495985,
+ "greedy_rerun_identical": "8/8",
+ "sampled_identical_to_greedy": {
+  "1": 0.11875,
+  "2": 0.07708333333333334,
+  "3": 0.0875
+ },
+ "flag_totals": {
+  "truncated": 383,
+  "empty": 0,
+  "degenerate": 0,
+  "leaked_special": 0,
+  "nonprintable": 0
+ }
+}

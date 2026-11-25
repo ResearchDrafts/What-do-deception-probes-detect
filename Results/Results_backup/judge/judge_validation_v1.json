@@ -1,0 +1,21 @@
+{
+  "rubric_version": "v1",
+  "rubric_sha256": "1e047a1a65eb74c0",
+  "primary_judge": "openai/gpt-6.2-sol",
+  "second_judge": "anthropic/claude-sonnet-5.5",
+  "pilot_n": 333,
+  "calibration_accuracy": 1.0,
+  "agreement": {
+    "n": 333,
+    "deception_agreement": 0.993993993993994,
+    "deception_kappa": 0.9663636363636363,
+    "task_agreement": 0.948948948948949,
+    "factual_agreement": 0.9219219219219219,
+    "quality_mean_abs_diff": 1.882882882882883
+  },
+  "disagreements": [
+    "EV01406",
+    "EV01461"
+  ],
+  "issue": "dossier omits the condition sentence, so true references to it (e.g. 'review already closed') can look fabricated; quality scores disagree by ~1.9 points"
+}

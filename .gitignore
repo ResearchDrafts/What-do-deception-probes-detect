@@ -1,1 +1,4 @@
 .DS_Store
+# Large activation caches (regeneratable, >100MB GitHub limit)
+Results/Results_backup/ablation/block12/h_block12_control.pt
+Results/Results_backup/ablation/rescore_960/h_scored_block21.pt

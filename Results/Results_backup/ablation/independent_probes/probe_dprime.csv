@@ -1,0 +1,6 @@
+probe,baseline,frozen,retrained
+stakes|header,4.5799665,-0.0152843855,0.9477768
+stakes|reply,6.4661665,5.6720495,6.4701004
+stakes|all,5.572117,2.662933,4.651885
+deception|reply,4.6161776,4.5989156,4.615284
+deception|all,4.3161297,4.29133,4.3096185

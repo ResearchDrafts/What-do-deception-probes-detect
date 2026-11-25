@@ -1,0 +1,315 @@
+Traceback (most recent call last):
+  File "/vol/ablation/judge/run_judge_qwen.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+W1124 22:32:10.037000 103 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 22:32:10.039000 103 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 22:32:10.039000 103 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files:  14%|█▍        | 2/14 [00:00<00:00, 14.36it/s]Fetching 14 files:  64%|██████▍   | 9/14 [00:00<00:00, 35.57it/s]Fetching 14 files:  93%|█████████▎| 13/14 [00:00<00:00, 25.01it/s]Fetching 14 files: 100%|██████████| 14/14 [00:01<00:00, 10.46it/s]
+W1124 22:32:52.068000 229 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 22:32:52.069000 229 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 22:32:52.070000 229 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 970.55it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/39 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   3% Completed | 1/39 [00:02<01:28,  2.32s/it]
+Loading safetensors checkpoint shards:   5% Completed | 2/39 [00:04<01:26,  2.35s/it]
+Loading safetensors checkpoint shards:   8% Completed | 3/39 [00:06<01:15,  2.10s/it]
+Loading safetensors checkpoint shards:  10% Completed | 4/39 [00:08<01:15,  2.14s/it]
+Loading safetensors checkpoint shards:  13% Completed | 5/39 [00:10<01:08,  2.02s/it]
+Loading safetensors checkpoint shards:  15% Completed | 6/39 [00:12<01:04,  1.97s/it]
+Loading safetensors checkpoint shards:  18% Completed | 7/39 [00:14<01:04,  2.03s/it]
+Loading safetensors checkpoint shards:  21% Completed | 8/39 [00:16<01:06,  2.14s/it]
+Loading safetensors checkpoint shards:  23% Completed | 9/39 [00:18<01:02,  2.09s/it]
+Loading safetensors checkpoint shards:  26% Completed | 10/39 [00:22<01:12,  2.52s/it]
+Loading safetensors checkpoint shards:  28% Completed | 11/39 [00:26<01:27,  3.12s/it]
+Loading safetensors checkpoint shards:  31% Completed | 12/39 [00:32<01:41,  3.77s/it]
+Loading safetensors checkpoint shards:  33% Completed | 13/39 [00:40<02:11,  5.07s/it]
+Loading safetensors checkpoint shards:  36% Completed | 14/39 [00:45<02:07,  5.12s/it]
+Loading safetensors checkpoint shards:  38% Completed | 15/39 [00:48<01:49,  4.57s/it]
+Loading safetensors checkpoint shards:  41% Completed | 16/39 [00:51<01:30,  3.94s/it]
+Loading safetensors checkpoint shards:  44% Completed | 17/39 [00:53<01:15,  3.41s/it]
+Loading safetensors checkpoint shards:  46% Completed | 18/39 [00:55<01:04,  3.06s/it]
+Loading safetensors checkpoint shards:  49% Completed | 19/39 [00:58<00:57,  2.87s/it]
+Loading safetensors checkpoint shards:  51% Completed | 20/39 [01:01<00:58,  3.09s/it]
+Loading safetensors checkpoint shards:  54% Completed | 21/39 [01:06<01:04,  3.59s/it]
+Loading safetensors checkpoint shards:  56% Completed | 22/39 [01:11<01:11,  4.20s/it]
+Loading safetensors checkpoint shards:  59% Completed | 23/39 [01:15<01:04,  4.05s/it]
+Loading safetensors checkpoint shards:  62% Completed | 24/39 [01:19<00:57,  3.84s/it]
+Loading safetensors checkpoint shards:  64% Completed | 25/39 [01:22<00:53,  3.83s/it]
+Loading safetensors checkpoint shards:  67% Completed | 26/39 [01:26<00:48,  3.71s/it]
+Loading safetensors checkpoint shards:  69% Completed | 27/39 [01:31<00:50,  4.19s/it]
+Loading safetensors checkpoint shards:  72% Completed | 28/39 [01:37<00:51,  4.72s/it]
+Loading safetensors checkpoint shards:  74% Completed | 29/39 [01:43<00:50,  5.00s/it]
+Loading safetensors checkpoint shards:  77% Completed | 30/39 [01:49<00:47,  5.30s/it]
+Loading safetensors checkpoint shards:  79% Completed | 31/39 [01:51<00:36,  4.51s/it]
+Loading safetensors checkpoint shards:  82% Completed | 32/39 [01:54<00:26,  3.85s/it]
+Loading safetensors checkpoint shards:  85% Completed | 33/39 [01:56<00:19,  3.28s/it]
+Loading safetensors checkpoint shards:  87% Completed | 34/39 [01:57<00:14,  2.84s/it]
+Loading safetensors checkpoint shards:  90% Completed | 35/39 [02:00<00:10,  2.63s/it]
+Loading safetensors checkpoint shards:  92% Completed | 36/39 [02:02<00:07,  2.47s/it]
+Loading safetensors checkpoint shards:  95% Completed | 37/39 [02:04<00:05,  2.50s/it]
+Loading safetensors checkpoint shards:  97% Completed | 38/39 [02:06<00:02,  2.22s/it]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [02:07<00:00,  1.90s/it]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [02:07<00:00,  3.27s/it]
+
+2026-11-24 22:46:05,030 - INFO - cute_dsl_core.py:194 - flashinfer.jit: Compiling CuTe-DSL kernel gdn_blackwell_prefill_sm100a_cute_dsl/sm_100a_148_bfloat16_float32_16_64_0_1_1_0_0_int32_none_none_none_none_1
+2026-11-24 22:46:09,731 - INFO - cute_dsl_core.py:285 - flashinfer.jit: Persisted CuTe-DSL kernel to /root/.cache/flashinfer/0.7.3/100a/cached_ops/gdn_blackwell_prefill_sm100a_cute_dsl/sm_100a_148_bfloat16_float32_16_64_0_1_1_0_0_int32_none_none_none_none_1.o
+2026-11-24 22:46:09,739 - INFO - cute_dsl_core.py:194 - flashinfer.jit: Compiling CuTe-DSL kernel gdn_blackwell_prefill_sm100a_cute_dsl/sm_100a_148_bfloat16_float32_16_64_0_1_1_1_0_int32_none_int64_none_none_1
+2026-11-24 22:46:14,386 - INFO - cute_dsl_core.py:285 - flashinfer.jit: Persisted CuTe-DSL kernel to /root/.cache/flashinfer/0.7.3/100a/cached_ops/gdn_blackwell_prefill_sm100a_cute_dsl/sm_100a_148_bfloat16_float32_16_64_0_1_1_1_0_int32_none_int64_none_none_1.o
+2026-11-24 22:46:15,961 - WARNING - core.py:6247 - flashinfer.jit: the single torch.Tensor return type is deprecated and will be replaced with List[torch.Tensor] in the v0.8.0.
+Process EngineCore:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py", line 1761, in run_engine_core
+    raise e
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py", line 1728, in run_engine_core
+    engine_core = EngineCoreProc(*args, engine_index=dp_rank, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py", line 1399, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py", line 177, in __init__
+    kv_cache_config = self._initialize_kv_caches(vllm_config)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core.py", line 404, in _initialize_kv_caches
+    self.model_executor.initialize_from_config(kv_cache_configs)
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/abstract.py", line 132, in initialize_from_config
+    self.collective_rpc("initialize_from_config", args=(kv_cache_configs,))
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/executor/uniproc_executor.py", line 103, in collective_rpc
+    result = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/serial_utils.py", line 508, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/worker_base.py", line 375, in initialize_from_config
+    self.worker.initialize_from_config(kv_cache_config)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu_worker.py", line 937, in initialize_from_config
+    self.model_runner.initialize_kv_cache(
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/worker/gpu/model_runner.py", line 792, in initialize_kv_cache
+    cudagraph_mode = self.compilation_config.resolve_cudagraph_mode_and_sizes(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/config/compilation.py", line 1674, in resolve_cudagraph_mode_and_sizes
+    raise ValueError(
+ValueError: max_num_seqs (1024) exceeds available Mamba cache blocks (841). Each decode sequence requires one Mamba cache block, so CUDA graph capture cannot proceed. Please lower max_num_seqs to at most 841 or increase gpu_memory_utilization.
+Traceback (most recent call last):
+  File "/vol/ablation/judge/run_judge_qwen.py", line 108, in <module>
+    llm = LLM(model=MODEL, max_model_len=8192, gpu_memory_utilization=0.90, seed=0,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/entrypoints/llm.py", line 352, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/llm_engine.py", line 191, in from_engine_args
+    return cls(
+           ^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/llm_engine.py", line 116, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py", line 142, in make_client
+    return SyncMPClient(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py", line 996, in __init__
+    super().__init__(
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/core_client.py", line 729, in __init__
+    with launch_core_engines(
+  File "/usr/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/utils.py", line 1393, in launch_core_engines
+    wait_for_engine_startup(
+  File "/usr/local/lib/python3.12/dist-packages/vllm/v1/engine/utils.py", line 1477, in wait_for_engine_startup
+    raise RuntimeError(
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+W1124 22:49:22.572000 1636 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 22:49:22.575000 1636 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 22:49:22.575000 1636 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 872.88it/s]
+W1124 22:49:42.183000 1692 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 22:49:42.184000 1692 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 22:49:42.186000 1692 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 1155.36it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/39 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   3% Completed | 1/39 [00:00<00:35,  1.07it/s]
+Loading safetensors checkpoint shards:   5% Completed | 2/39 [00:01<00:36,  1.01it/s]
+Loading safetensors checkpoint shards:   8% Completed | 3/39 [00:02<00:36,  1.01s/it]
+Loading safetensors checkpoint shards:  10% Completed | 4/39 [00:04<00:36,  1.03s/it]
+Loading safetensors checkpoint shards:  13% Completed | 5/39 [00:05<00:34,  1.02s/it]
+Loading safetensors checkpoint shards:  15% Completed | 6/39 [00:06<00:33,  1.03s/it]
+Loading safetensors checkpoint shards:  18% Completed | 7/39 [00:07<00:33,  1.06s/it]
+Loading safetensors checkpoint shards:  21% Completed | 8/39 [00:08<00:33,  1.08s/it]
+Loading safetensors checkpoint shards:  23% Completed | 9/39 [00:09<00:32,  1.08s/it]
+Loading safetensors checkpoint shards:  26% Completed | 10/39 [00:10<00:31,  1.07s/it]
+Loading safetensors checkpoint shards:  28% Completed | 11/39 [00:11<00:30,  1.09s/it]
+Loading safetensors checkpoint shards:  31% Completed | 12/39 [00:12<00:30,  1.12s/it]
+Loading safetensors checkpoint shards:  33% Completed | 13/39 [00:14<00:30,  1.16s/it]
+Loading safetensors checkpoint shards:  36% Completed | 14/39 [00:15<00:29,  1.17s/it]
+Loading safetensors checkpoint shards:  38% Completed | 15/39 [00:16<00:27,  1.16s/it]
+Loading safetensors checkpoint shards:  41% Completed | 16/39 [00:17<00:26,  1.17s/it]
+Loading safetensors checkpoint shards:  44% Completed | 17/39 [00:18<00:25,  1.15s/it]
+Loading safetensors checkpoint shards:  46% Completed | 18/39 [00:19<00:24,  1.15s/it]
+Loading safetensors checkpoint shards:  49% Completed | 19/39 [00:21<00:23,  1.16s/it]
+Loading safetensors checkpoint shards:  51% Completed | 20/39 [00:22<00:21,  1.15s/it]
+Loading safetensors checkpoint shards:  54% Completed | 21/39 [00:23<00:20,  1.13s/it]
+Loading safetensors checkpoint shards:  56% Completed | 22/39 [00:24<00:19,  1.13s/it]
+Loading safetensors checkpoint shards:  59% Completed | 23/39 [00:25<00:18,  1.14s/it]
+Loading safetensors checkpoint shards:  62% Completed | 24/39 [00:26<00:17,  1.14s/it]
+Loading safetensors checkpoint shards:  64% Completed | 25/39 [00:27<00:15,  1.12s/it]
+Loading safetensors checkpoint shards:  67% Completed | 26/39 [00:28<00:14,  1.10s/it]
+Loading safetensors checkpoint shards:  69% Completed | 27/39 [00:29<00:13,  1.09s/it]
+Loading safetensors checkpoint shards:  72% Completed | 28/39 [00:30<00:11,  1.09s/it]
+Loading safetensors checkpoint shards:  74% Completed | 29/39 [00:32<00:11,  1.13s/it]
+Loading safetensors checkpoint shards:  77% Completed | 30/39 [00:33<00:10,  1.11s/it]
+Loading safetensors checkpoint shards:  79% Completed | 31/39 [00:34<00:09,  1.13s/it]
+Loading safetensors checkpoint shards:  82% Completed | 32/39 [00:35<00:08,  1.15s/it]
+Loading safetensors checkpoint shards:  85% Completed | 33/39 [00:36<00:06,  1.11s/it]
+Loading safetensors checkpoint shards:  87% Completed | 34/39 [00:37<00:05,  1.08s/it]
+Loading safetensors checkpoint shards:  90% Completed | 35/39 [00:38<00:04,  1.07s/it]
+Loading safetensors checkpoint shards:  92% Completed | 36/39 [00:39<00:03,  1.07s/it]
+Loading safetensors checkpoint shards:  95% Completed | 37/39 [00:40<00:02,  1.06s/it]
+Loading safetensors checkpoint shards:  97% Completed | 38/39 [00:41<00:01,  1.00s/it]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [00:41<00:00,  1.28it/s]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [00:41<00:00,  1.08s/it]
+
+2026-11-24 22:51:05,314 - WARNING - core.py:6247 - flashinfer.jit: the single torch.Tensor return type is deprecated and will be replaced with List[torch.Tensor] in the v0.8.0.
+2026-11-24 22:51:13,698 - INFO - autotuner.py:1121 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+2026-11-24 22:51:13,781 - INFO - autotune_cache.py:582 - flashinfer.jit: [Autotuner]: Managed autotune cache attached for this process: ManagedAutotuneCache(env_dir='/root/.cache/flashinfer/autotune/v2/bc195123ab68c5ab', hits=0, misses=0)
+[AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:   0%|          | 0/22 [00:00<?, ?profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:   5%|▍         | 1/22 [00:00<00:07,  2.97profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:   9%|▉         | 2/22 [00:00<00:05,  3.42profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  14%|█▎        | 3/22 [00:00<00:05,  3.74profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  18%|█▊        | 4/22 [00:01<00:05,  3.57profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  23%|██▎       | 5/22 [00:01<00:04,  3.43profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  27%|██▋       | 6/22 [00:02<00:06,  2.37profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  32%|███▏      | 7/22 [00:02<00:07,  2.12profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  36%|███▋      | 8/22 [00:04<00:11,  1.18profile/s][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  41%|████      | 9/22 [00:05<00:14,  1.08s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  45%|████▌     | 10/22 [00:07<00:15,  1.26s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  50%|█████     | 11/22 [00:09<00:15,  1.37s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  55%|█████▍    | 12/22 [00:10<00:14,  1.41s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  59%|█████▉    | 13/22 [00:12<00:12,  1.43s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  64%|██████▎   | 14/22 [00:13<00:11,  1.44s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  68%|██████▊   | 15/22 [00:15<00:10,  1.44s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  73%|███████▎  | 16/22 [00:16<00:09,  1.51s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  77%|███████▋  | 17/22 [00:18<00:07,  1.45s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  82%|████████▏ | 18/22 [00:19<00:05,  1.38s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  86%|████████▋ | 19/22 [00:20<00:04,  1.34s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  91%|█████████ | 20/22 [00:22<00:02,  1.44s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe:  95%|█████████▌| 21/22 [00:24<00:01,  1.83s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe: 100%|██████████| 22/22 [00:30<00:00,  2.88s/profile][AutoTuner]: Tuning flashinfer::trtllm_fp8_block_scale_moe: 100%|██████████| 22/22 [00:30<00:00,  1.38s/profile]
+2026-11-24 22:51:45,668 - INFO - autotuner.py:1146 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/54 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   2%|▏         | 1/54 [00:00<00:18,  2.86it/s]Capturing CUDA graphs (PIECEWISE):   4%|▎         | 2/54 [00:00<00:18,  2.84it/s]Capturing CUDA graphs (PIECEWISE):   6%|▌         | 3/54 [00:01<00:17,  2.87it/s]Capturing CUDA graphs (PIECEWISE):   7%|▋         | 4/54 [00:01<00:17,  2.93it/s]Capturing CUDA graphs (PIECEWISE):   9%|▉         | 5/54 [00:01<00:16,  2.94it/s]Capturing CUDA graphs (PIECEWISE):  11%|█         | 6/54 [00:02<00:16,  2.94it/s]Capturing CUDA graphs (PIECEWISE):  13%|█▎        | 7/54 [00:02<00:15,  2.95it/s]Capturing CUDA graphs (PIECEWISE):  15%|█▍        | 8/54 [00:02<00:15,  3.05it/s]Capturing CUDA graphs (PIECEWISE):  17%|█▋        | 9/54 [00:03<00:14,  3.05it/s]Capturing CUDA graphs (PIECEWISE):  19%|█▊        | 10/54 [00:03<00:14,  3.05it/s]Capturing CUDA graphs (PIECEWISE):  20%|██        | 11/54 [00:03<00:13,  3.10it/s]Capturing CUDA graphs (PIECEWISE):  22%|██▏       | 12/54 [00:03<00:13,  3.16it/s]Capturing CUDA graphs (PIECEWISE):  24%|██▍       | 13/54 [00:04<00:12,  3.25it/s]Capturing CUDA graphs (PIECEWISE):  26%|██▌       | 14/54 [00:04<00:12,  3.26it/s]Capturing CUDA graphs (PIECEWISE):  28%|██▊       | 15/54 [00:04<00:12,  3.25it/s]Capturing CUDA graphs (PIECEWISE):  30%|██▉       | 16/54 [00:05<00:11,  3.20it/s]Capturing CUDA graphs (PIECEWISE):  31%|███▏      | 17/54 [00:05<00:11,  3.32it/s]Capturing CUDA graphs (PIECEWISE):  33%|███▎      | 18/54 [00:05<00:09,  3.62it/s]Capturing CUDA graphs (PIECEWISE):  35%|███▌      | 19/54 [00:06<00:10,  3.45it/s]Capturing CUDA graphs (PIECEWISE):  37%|███▋      | 20/54 [00:06<00:09,  3.51it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 21/54 [00:06<00:09,  3.53it/s]Capturing CUDA graphs (PIECEWISE):  41%|████      | 22/54 [00:06<00:08,  3.78it/s]Capturing CUDA graphs (PIECEWISE):  43%|████▎     | 23/54 [00:07<00:08,  3.66it/s]Capturing CUDA graphs (PIECEWISE):  44%|████▍     | 24/54 [00:07<00:07,  3.76it/s]Capturing CUDA graphs (PIECEWISE):  46%|████▋     | 25/54 [00:07<00:07,  3.80it/s]Capturing CUDA graphs (PIECEWISE):  48%|████▊     | 26/54 [00:07<00:07,  3.95it/s]Capturing CUDA graphs (PIECEWISE):  50%|█████     | 27/54 [00:08<00:06,  4.04it/s]Capturing CUDA graphs (PIECEWISE):  52%|█████▏    | 28/54 [00:08<00:06,  3.97it/s]Capturing CUDA graphs (PIECEWISE):  54%|█████▎    | 29/54 [00:08<00:06,  3.65it/s]Capturing CUDA graphs (PIECEWISE):  56%|█████▌    | 30/54 [00:08<00:06,  3.78it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 31/54 [00:09<00:05,  3.96it/s]Capturing CUDA graphs (PIECEWISE):  59%|█████▉    | 32/54 [00:09<00:05,  4.08it/s]Capturing CUDA graphs (PIECEWISE):  61%|██████    | 33/54 [00:09<00:05,  4.18it/s]Capturing CUDA graphs (PIECEWISE):  63%|██████▎   | 34/54 [00:09<00:04,  4.16it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 35/54 [00:10<00:04,  4.09it/s]Capturing CUDA graphs (PIECEWISE):  67%|██████▋   | 36/54 [00:10<00:05,  3.53it/s]Capturing CUDA graphs (PIECEWISE):  69%|██████▊   | 37/54 [00:10<00:04,  3.82it/s]Capturing CUDA graphs (PIECEWISE):  70%|███████   | 38/54 [00:10<00:03,  4.02it/s]Capturing CUDA graphs (PIECEWISE):  72%|███████▏  | 39/54 [00:11<00:03,  4.21it/s]Capturing CUDA graphs (PIECEWISE):  74%|███████▍  | 40/54 [00:11<00:03,  4.21it/s]Capturing CUDA graphs (PIECEWISE):  76%|███████▌  | 41/54 [00:11<00:02,  4.38it/s]Capturing CUDA graphs (PIECEWISE):  78%|███████▊  | 42/54 [00:11<00:02,  4.35it/s]Capturing CUDA graphs (PIECEWISE):  80%|███████▉  | 43/54 [00:11<00:02,  4.32it/s]Capturing CUDA graphs (PIECEWISE):  81%|████████▏ | 44/54 [00:12<00:02,  4.21it/s]Capturing CUDA graphs (PIECEWISE):  83%|████████▎ | 45/54 [00:12<00:02,  4.02it/s]Capturing CUDA graphs (PIECEWISE):  85%|████████▌ | 46/54 [00:12<00:01,  4.11it/s]Capturing CUDA graphs (PIECEWISE):  87%|████████▋ | 47/54 [00:13<00:01,  3.99it/s]Capturing CUDA graphs (PIECEWISE):  89%|████████▉ | 48/54 [00:13<00:01,  4.24it/s]Capturing CUDA graphs (PIECEWISE):  91%|█████████ | 49/54 [00:13<00:01,  4.44it/s]Capturing CUDA graphs (PIECEWISE):  93%|█████████▎| 50/54 [00:13<00:00,  4.57it/s]Capturing CUDA graphs (PIECEWISE):  94%|█████████▍| 51/54 [00:13<00:00,  4.72it/s]Capturing CUDA graphs (PIECEWISE):  96%|█████████▋| 52/54 [00:14<00:00,  4.79it/s]Capturing CUDA graphs (PIECEWISE):  98%|█████████▊| 53/54 [00:14<00:00,  4.66it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 54/54 [00:14<00:00,  4.82it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 54/54 [00:14<00:00,  3.74it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/37 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):   3%|▎         | 1/37 [00:00<00:07,  5.06it/s]Capturing CUDA graphs (FULL):   5%|▌         | 2/37 [00:00<00:07,  4.73it/s]Capturing CUDA graphs (FULL):   8%|▊         | 3/37 [00:00<00:06,  5.04it/s]Capturing CUDA graphs (FULL):  11%|█         | 4/37 [00:00<00:06,  5.13it/s]Capturing CUDA graphs (FULL):  14%|█▎        | 5/37 [00:00<00:06,  5.18it/s]Capturing CUDA graphs (FULL):  16%|█▌        | 6/37 [00:01<00:07,  4.11it/s]Capturing CUDA graphs (FULL):  19%|█▉        | 7/37 [00:01<00:09,  3.28it/s]Capturing CUDA graphs (FULL):  22%|██▏       | 8/37 [00:02<00:09,  3.06it/s]Capturing CUDA graphs (FULL):  24%|██▍       | 9/37 [00:02<00:07,  3.54it/s]Capturing CUDA graphs (FULL):  27%|██▋       | 10/37 [00:02<00:06,  3.97it/s]Capturing CUDA graphs (FULL):  30%|██▉       | 11/37 [00:02<00:05,  4.36it/s]Capturing CUDA graphs (FULL):  32%|███▏      | 12/37 [00:03<00:06,  3.59it/s]Capturing CUDA graphs (FULL):  35%|███▌      | 13/37 [00:03<00:06,  3.46it/s]Capturing CUDA graphs (FULL):  38%|███▊      | 14/37 [00:03<00:05,  3.86it/s]Capturing CUDA graphs (FULL):  41%|████      | 15/37 [00:03<00:05,  3.81it/s]Capturing CUDA graphs (FULL):  43%|████▎     | 16/37 [00:04<00:05,  4.08it/s]Capturing CUDA graphs (FULL):  46%|████▌     | 17/37 [00:04<00:04,  4.34it/s]Capturing CUDA graphs (FULL):  49%|████▊     | 18/37 [00:04<00:04,  4.58it/s]Capturing CUDA graphs (FULL):  51%|█████▏    | 19/37 [00:04<00:04,  4.49it/s]Capturing CUDA graphs (FULL):  54%|█████▍    | 20/37 [00:04<00:03,  4.67it/s]Capturing CUDA graphs (FULL):  57%|█████▋    | 21/37 [00:05<00:03,  4.16it/s]Capturing CUDA graphs (FULL):  59%|█████▉    | 22/37 [00:05<00:03,  4.52it/s]Capturing CUDA graphs (FULL):  62%|██████▏   | 23/37 [00:05<00:02,  4.81it/s]Capturing CUDA graphs (FULL):  65%|██████▍   | 24/37 [00:05<00:02,  4.84it/s]Capturing CUDA graphs (FULL):  68%|██████▊   | 25/37 [00:06<00:03,  3.98it/s]Capturing CUDA graphs (FULL):  70%|███████   | 26/37 [00:06<00:02,  3.80it/s]Capturing CUDA graphs (FULL):  73%|███████▎  | 27/37 [00:06<00:03,  3.33it/s]Capturing CUDA graphs (FULL):  76%|███████▌  | 28/37 [00:07<00:02,  3.41it/s]Capturing CUDA graphs (FULL):  78%|███████▊  | 29/37 [00:07<00:02,  3.90it/s]Capturing CUDA graphs (FULL):  81%|████████  | 30/37 [00:07<00:01,  3.92it/s]Capturing CUDA graphs (FULL):  84%|████████▍ | 31/37 [00:07<00:01,  4.27it/s]Capturing CUDA graphs (FULL):  86%|████████▋ | 32/37 [00:08<00:01,  3.01it/s]Capturing CUDA graphs (FULL):  89%|████████▉ | 33/37 [00:08<00:01,  2.88it/s]Capturing CUDA graphs (FULL):  92%|█████████▏| 34/37 [00:08<00:01,  2.76it/s]Capturing CUDA graphs (FULL):  95%|█████████▍| 35/37 [00:09<00:00,  3.03it/s]Capturing CUDA graphs (FULL):  97%|█████████▋| 36/37 [00:09<00:00,  2.73it/s]Capturing CUDA graphs (FULL): 100%|██████████| 37/37 [00:09<00:00,  3.02it/s]Capturing CUDA graphs (FULL): 100%|██████████| 37/37 [00:09<00:00,  3.73it/s]
+/vol/ablation/judge/run_judge_qwen.py:80: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  judged_at=datetime.datetime.utcnow().isoformat() + "Z",
+W1124 22:55:23.363000 1931 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 22:55:23.371000 1931 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 22:55:23.371000 1931 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 1164.28it/s]
+W1124 22:55:42.458000 1987 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 22:55:42.459000 1987 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 22:55:42.460000 1987 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 1145.43it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/39 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   3% Completed | 1/39 [00:00<00:34,  1.10it/s]
+Loading safetensors checkpoint shards:   5% Completed | 2/39 [00:01<00:35,  1.05it/s]
+Loading safetensors checkpoint shards:   8% Completed | 3/39 [00:02<00:35,  1.02it/s]
+Loading safetensors checkpoint shards:  10% Completed | 4/39 [00:03<00:35,  1.01s/it]
+Loading safetensors checkpoint shards:  13% Completed | 5/39 [00:04<00:34,  1.02s/it]
+Loading safetensors checkpoint shards:  15% Completed | 6/39 [00:06<00:34,  1.03s/it]
+Loading safetensors checkpoint shards:  18% Completed | 7/39 [00:07<00:33,  1.04s/it]
+Loading safetensors checkpoint shards:  21% Completed | 8/39 [00:08<00:32,  1.05s/it]
+Loading safetensors checkpoint shards:  23% Completed | 9/39 [00:09<00:32,  1.09s/it]
+Loading safetensors checkpoint shards:  26% Completed | 10/39 [00:10<00:31,  1.09s/it]
+Loading safetensors checkpoint shards:  28% Completed | 11/39 [00:11<00:31,  1.13s/it]
+Loading safetensors checkpoint shards:  31% Completed | 12/39 [00:12<00:30,  1.12s/it]
+Loading safetensors checkpoint shards:  33% Completed | 13/39 [00:13<00:28,  1.11s/it]
+Loading safetensors checkpoint shards:  36% Completed | 14/39 [00:14<00:27,  1.11s/it]
+Loading safetensors checkpoint shards:  38% Completed | 15/39 [00:16<00:26,  1.11s/it]
+Loading safetensors checkpoint shards:  41% Completed | 16/39 [00:17<00:25,  1.09s/it]
+Loading safetensors checkpoint shards:  44% Completed | 17/39 [00:18<00:23,  1.08s/it]
+Loading safetensors checkpoint shards:  46% Completed | 18/39 [00:19<00:22,  1.08s/it]
+Loading safetensors checkpoint shards:  49% Completed | 19/39 [00:20<00:21,  1.08s/it]
+Loading safetensors checkpoint shards:  51% Completed | 20/39 [00:21<00:20,  1.07s/it]
+Loading safetensors checkpoint shards:  54% Completed | 21/39 [00:22<00:19,  1.06s/it]
+Loading safetensors checkpoint shards:  56% Completed | 22/39 [00:23<00:18,  1.07s/it]
+Loading safetensors checkpoint shards:  59% Completed | 23/39 [00:24<00:17,  1.07s/it]
+Loading safetensors checkpoint shards:  62% Completed | 24/39 [00:25<00:16,  1.07s/it]
+Loading safetensors checkpoint shards:  64% Completed | 25/39 [00:26<00:14,  1.07s/it]
+Loading safetensors checkpoint shards:  67% Completed | 26/39 [00:27<00:13,  1.06s/it]
+Loading safetensors checkpoint shards:  69% Completed | 27/39 [00:28<00:12,  1.08s/it]
+Loading safetensors checkpoint shards:  72% Completed | 28/39 [00:29<00:11,  1.08s/it]
+Loading safetensors checkpoint shards:  74% Completed | 29/39 [00:31<00:11,  1.11s/it]
+Loading safetensors checkpoint shards:  77% Completed | 30/39 [00:32<00:10,  1.14s/it]
+Loading safetensors checkpoint shards:  79% Completed | 31/39 [00:33<00:09,  1.14s/it]
+Loading safetensors checkpoint shards:  82% Completed | 32/39 [00:34<00:08,  1.15s/it]
+Loading safetensors checkpoint shards:  85% Completed | 33/39 [00:35<00:07,  1.18s/it]
+Loading safetensors checkpoint shards:  87% Completed | 34/39 [00:37<00:05,  1.20s/it]
+Loading safetensors checkpoint shards:  90% Completed | 35/39 [00:38<00:04,  1.17s/it]
+Loading safetensors checkpoint shards:  92% Completed | 36/39 [00:39<00:03,  1.14s/it]
+Loading safetensors checkpoint shards:  95% Completed | 37/39 [00:40<00:02,  1.14s/it]
+Loading safetensors checkpoint shards:  97% Completed | 38/39 [00:41<00:01,  1.06s/it]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [00:41<00:00,  1.21it/s]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [00:41<00:00,  1.07s/it]
+
+2026-11-24 22:56:58,711 - WARNING - core.py:6247 - flashinfer.jit: the single torch.Tensor return type is deprecated and will be replaced with List[torch.Tensor] in the v0.8.0.
+2026-11-24 22:57:07,737 - INFO - autotuner.py:1121 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+2026-11-24 22:57:07,758 - INFO - autotune_cache.py:582 - flashinfer.jit: [Autotuner]: Managed autotune cache attached for this process: ManagedAutotuneCache(env_dir='/root/.cache/flashinfer/autotune/v2/bc195123ab68c5ab', hits=0, misses=0)
+2026-11-24 22:57:07,760 - INFO - autotune_cache.py:630 - flashinfer.jit: [Autotuner]: Preloaded 22/22 managed cache entries into memory
+2026-11-24 22:57:08,281 - INFO - autotuner.py:2368 - flashinfer.jit: [Autotuner]: Config cache hit for flashinfer::trtllm_fp8_block_scale_moe (runner=MoERunner, source=managed cache)
+2026-11-24 22:57:09,758 - INFO - autotuner.py:1146 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/54 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   2%|▏         | 1/54 [00:00<00:17,  2.97it/s]Capturing CUDA graphs (PIECEWISE):   4%|▎         | 2/54 [00:00<00:17,  2.96it/s]Capturing CUDA graphs (PIECEWISE):   6%|▌         | 3/54 [00:01<00:17,  2.95it/s]Capturing CUDA graphs (PIECEWISE):   7%|▋         | 4/54 [00:01<00:16,  2.99it/s]Capturing CUDA graphs (PIECEWISE):   9%|▉         | 5/54 [00:01<00:16,  2.90it/s]Capturing CUDA graphs (PIECEWISE):  11%|█         | 6/54 [00:02<00:16,  2.88it/s]Capturing CUDA graphs (PIECEWISE):  13%|█▎        | 7/54 [00:02<00:16,  2.92it/s]Capturing CUDA graphs (PIECEWISE):  15%|█▍        | 8/54 [00:02<00:15,  3.05it/s]Capturing CUDA graphs (PIECEWISE):  17%|█▋        | 9/54 [00:03<00:14,  3.10it/s]Capturing CUDA graphs (PIECEWISE):  19%|█▊        | 10/54 [00:03<00:14,  3.11it/s]Capturing CUDA graphs (PIECEWISE):  20%|██        | 11/54 [00:03<00:13,  3.13it/s]Capturing CUDA graphs (PIECEWISE):  22%|██▏       | 12/54 [00:03<00:13,  3.20it/s]Capturing CUDA graphs (PIECEWISE):  24%|██▍       | 13/54 [00:04<00:12,  3.29it/s]Capturing CUDA graphs (PIECEWISE):  26%|██▌       | 14/54 [00:04<00:12,  3.32it/s]Capturing CUDA graphs (PIECEWISE):  28%|██▊       | 15/54 [00:04<00:11,  3.32it/s]Capturing CUDA graphs (PIECEWISE):  30%|██▉       | 16/54 [00:05<00:11,  3.27it/s]Capturing CUDA graphs (PIECEWISE):  31%|███▏      | 17/54 [00:05<00:11,  3.31it/s]Capturing CUDA graphs (PIECEWISE):  33%|███▎      | 18/54 [00:05<00:10,  3.59it/s]Capturing CUDA graphs (PIECEWISE):  35%|███▌      | 19/54 [00:05<00:10,  3.47it/s]Capturing CUDA graphs (PIECEWISE):  37%|███▋      | 20/54 [00:06<00:09,  3.56it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 21/54 [00:06<00:11,  2.99it/s]Capturing CUDA graphs (PIECEWISE):  41%|████      | 22/54 [00:06<00:09,  3.37it/s]Capturing CUDA graphs (PIECEWISE):  43%|████▎     | 23/54 [00:07<00:09,  3.37it/s]Capturing CUDA graphs (PIECEWISE):  44%|████▍     | 24/54 [00:07<00:08,  3.52it/s]Capturing CUDA graphs (PIECEWISE):  46%|████▋     | 25/54 [00:07<00:08,  3.57it/s]Capturing CUDA graphs (PIECEWISE):  48%|████▊     | 26/54 [00:07<00:07,  3.75it/s]Capturing CUDA graphs (PIECEWISE):  50%|█████     | 27/54 [00:08<00:06,  4.00it/s]Capturing CUDA graphs (PIECEWISE):  52%|█████▏    | 28/54 [00:08<00:06,  4.08it/s]Capturing CUDA graphs (PIECEWISE):  54%|█████▎    | 29/54 [00:08<00:05,  4.21it/s]Capturing CUDA graphs (PIECEWISE):  56%|█████▌    | 30/54 [00:08<00:05,  4.25it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 31/54 [00:09<00:05,  4.43it/s]Capturing CUDA graphs (PIECEWISE):  59%|█████▉    | 32/54 [00:09<00:04,  4.41it/s]Capturing CUDA graphs (PIECEWISE):  61%|██████    | 33/54 [00:09<00:04,  4.31it/s]Capturing CUDA graphs (PIECEWISE):  63%|██████▎   | 34/54 [00:09<00:04,  4.27it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 35/54 [00:09<00:04,  4.30it/s]Capturing CUDA graphs (PIECEWISE):  67%|██████▋   | 36/54 [00:10<00:04,  4.32it/s]Capturing CUDA graphs (PIECEWISE):  69%|██████▊   | 37/54 [00:10<00:03,  4.52it/s]Capturing CUDA graphs (PIECEWISE):  70%|███████   | 38/54 [00:10<00:03,  4.67it/s]Capturing CUDA graphs (PIECEWISE):  72%|███████▏  | 39/54 [00:10<00:03,  4.59it/s]Capturing CUDA graphs (PIECEWISE):  74%|███████▍  | 40/54 [00:11<00:04,  3.47it/s]Capturing CUDA graphs (PIECEWISE):  76%|███████▌  | 41/54 [00:11<00:03,  3.75it/s]Capturing CUDA graphs (PIECEWISE):  78%|███████▊  | 42/54 [00:11<00:03,  3.94it/s]Capturing CUDA graphs (PIECEWISE):  80%|███████▉  | 43/54 [00:11<00:02,  4.16it/s]Capturing CUDA graphs (PIECEWISE):  81%|████████▏ | 44/54 [00:12<00:02,  4.22it/s]Capturing CUDA graphs (PIECEWISE):  83%|████████▎ | 45/54 [00:12<00:02,  4.42it/s]Capturing CUDA graphs (PIECEWISE):  85%|████████▌ | 46/54 [00:12<00:01,  4.45it/s]Capturing CUDA graphs (PIECEWISE):  87%|████████▋ | 47/54 [00:12<00:01,  4.42it/s]Capturing CUDA graphs (PIECEWISE):  89%|████████▉ | 48/54 [00:13<00:01,  4.54it/s]Capturing CUDA graphs (PIECEWISE):  91%|█████████ | 49/54 [00:13<00:01,  4.70it/s]Capturing CUDA graphs (PIECEWISE):  93%|█████████▎| 50/54 [00:13<00:00,  4.84it/s]Capturing CUDA graphs (PIECEWISE):  94%|█████████▍| 51/54 [00:13<00:00,  4.72it/s]Capturing CUDA graphs (PIECEWISE):  96%|█████████▋| 52/54 [00:13<00:00,  4.89it/s]Capturing CUDA graphs (PIECEWISE):  98%|█████████▊| 53/54 [00:14<00:00,  5.03it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 54/54 [00:14<00:00,  5.06it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 54/54 [00:14<00:00,  3.80it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/37 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):   3%|▎         | 1/37 [00:00<00:07,  5.04it/s]Capturing CUDA graphs (FULL):   5%|▌         | 2/37 [00:00<00:06,  5.28it/s]Capturing CUDA graphs (FULL):   8%|▊         | 3/37 [00:00<00:06,  5.24it/s]Capturing CUDA graphs (FULL):  11%|█         | 4/37 [00:00<00:06,  5.40it/s]Capturing CUDA graphs (FULL):  14%|█▎        | 5/37 [00:00<00:05,  5.53it/s]Capturing CUDA graphs (FULL):  16%|█▌        | 6/37 [00:01<00:05,  5.60it/s]Capturing CUDA graphs (FULL):  19%|█▉        | 7/37 [00:01<00:05,  5.43it/s]Capturing CUDA graphs (FULL):  22%|██▏       | 8/37 [00:01<00:05,  4.88it/s]Capturing CUDA graphs (FULL):  24%|██▍       | 9/37 [00:01<00:05,  4.97it/s]Capturing CUDA graphs (FULL):  27%|██▋       | 10/37 [00:01<00:05,  5.14it/s]Capturing CUDA graphs (FULL):  30%|██▉       | 11/37 [00:02<00:04,  5.28it/s]Capturing CUDA graphs (FULL):  32%|███▏      | 12/37 [00:02<00:04,  5.44it/s]Capturing CUDA graphs (FULL):  35%|███▌      | 13/37 [00:02<00:04,  5.54it/s]Capturing CUDA graphs (FULL):  38%|███▊      | 14/37 [00:02<00:04,  5.62it/s]Capturing CUDA graphs (FULL):  41%|████      | 15/37 [00:02<00:03,  5.60it/s]Capturing CUDA graphs (FULL):  43%|████▎     | 16/37 [00:02<00:03,  5.63it/s]Capturing CUDA graphs (FULL):  46%|████▌     | 17/37 [00:03<00:03,  5.71it/s]Capturing CUDA graphs (FULL):  49%|████▊     | 18/37 [00:03<00:03,  5.38it/s]Capturing CUDA graphs (FULL):  51%|█████▏    | 19/37 [00:03<00:03,  5.23it/s]Capturing CUDA graphs (FULL):  54%|█████▍    | 20/37 [00:03<00:03,  5.32it/s]Capturing CUDA graphs (FULL):  57%|█████▋    | 21/37 [00:03<00:02,  5.40it/s]Capturing CUDA graphs (FULL):  59%|█████▉    | 22/37 [00:04<00:02,  5.25it/s]Capturing CUDA graphs (FULL):  62%|██████▏   | 23/37 [00:04<00:02,  5.37it/s]Capturing CUDA graphs (FULL):  65%|██████▍   | 24/37 [00:04<00:02,  5.49it/s]Capturing CUDA graphs (FULL):  68%|██████▊   | 25/37 [00:04<00:02,  5.32it/s]Capturing CUDA graphs (FULL):  70%|███████   | 26/37 [00:04<00:02,  5.48it/s]Capturing CUDA graphs (FULL):  73%|███████▎  | 27/37 [00:05<00:01,  5.52it/s]Capturing CUDA graphs (FULL):  76%|███████▌  | 28/37 [00:05<00:01,  5.50it/s]Capturing CUDA graphs (FULL):  78%|███████▊  | 29/37 [00:05<00:01,  5.07it/s]Capturing CUDA graphs (FULL):  81%|████████  | 30/37 [00:05<00:01,  5.08it/s]Capturing CUDA graphs (FULL):  84%|████████▍ | 31/37 [00:05<00:01,  4.99it/s]Capturing CUDA graphs (FULL):  86%|████████▋ | 32/37 [00:06<00:00,  5.15it/s]Capturing CUDA graphs (FULL):  89%|████████▉ | 33/37 [00:06<00:00,  5.30it/s]Capturing CUDA graphs (FULL):  92%|█████████▏| 34/37 [00:06<00:00,  5.25it/s]Capturing CUDA graphs (FULL):  95%|█████████▍| 35/37 [00:06<00:00,  5.25it/s]Capturing CUDA graphs (FULL):  97%|█████████▋| 36/37 [00:06<00:00,  5.45it/s]Capturing CUDA graphs (FULL): 100%|██████████| 37/37 [00:06<00:00,  5.54it/s]Capturing CUDA graphs (FULL): 100%|██████████| 37/37 [00:06<00:00,  5.35it/s]
+/vol/ablation/judge/run_judge_qwen.py:87: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  judged_at=datetime.datetime.utcnow().isoformat() + "Z",
+W1124 23:01:13.152000 2156 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 23:01:13.155000 2156 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 23:01:13.155000 2156 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 1030.74it/s]
+W1124 23:01:32.086000 2212 torch/_opaque_base.py:6] torch._opaque_base is deprecated, use torch._custom_class_base instead
+W1124 23:01:32.087000 2212 torch/_library/opaque_object.py:288] register_opaque_type is deprecated, use register_custom_class instead
+W1124 23:01:32.088000 2212 torch/_library/opaque_object.py:211] typ='value' is deprecated, use typ='constant' instead
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 835.30it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/39 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   3% Completed | 1/39 [00:00<00:35,  1.07it/s]
+Loading safetensors checkpoint shards:   5% Completed | 2/39 [00:01<00:35,  1.03it/s]
+Loading safetensors checkpoint shards:   8% Completed | 3/39 [00:02<00:36,  1.01s/it]
+Loading safetensors checkpoint shards:  10% Completed | 4/39 [00:03<00:35,  1.01s/it]
+Loading safetensors checkpoint shards:  13% Completed | 5/39 [00:05<00:34,  1.02s/it]
+Loading safetensors checkpoint shards:  15% Completed | 6/39 [00:06<00:33,  1.03s/it]
+Loading safetensors checkpoint shards:  18% Completed | 7/39 [00:07<00:33,  1.04s/it]
+Loading safetensors checkpoint shards:  21% Completed | 8/39 [00:08<00:32,  1.05s/it]
+Loading safetensors checkpoint shards:  23% Completed | 9/39 [00:09<00:33,  1.11s/it]
+Loading safetensors checkpoint shards:  26% Completed | 10/39 [00:10<00:31,  1.09s/it]
+Loading safetensors checkpoint shards:  28% Completed | 11/39 [00:11<00:31,  1.12s/it]
+Loading safetensors checkpoint shards:  31% Completed | 12/39 [00:12<00:29,  1.11s/it]
+Loading safetensors checkpoint shards:  33% Completed | 13/39 [00:13<00:29,  1.13s/it]
+Loading safetensors checkpoint shards:  36% Completed | 14/39 [00:15<00:29,  1.16s/it]
+Loading safetensors checkpoint shards:  38% Completed | 15/39 [00:16<00:28,  1.18s/it]
+Loading safetensors checkpoint shards:  41% Completed | 16/39 [00:17<00:27,  1.18s/it]
+Loading safetensors checkpoint shards:  44% Completed | 17/39 [00:18<00:26,  1.21s/it]
+Loading safetensors checkpoint shards:  46% Completed | 18/39 [00:20<00:25,  1.22s/it]
+Loading safetensors checkpoint shards:  49% Completed | 19/39 [00:21<00:24,  1.22s/it]
+Loading safetensors checkpoint shards:  51% Completed | 20/39 [00:22<00:23,  1.21s/it]
+Loading safetensors checkpoint shards:  54% Completed | 21/39 [00:23<00:21,  1.20s/it]
+Loading safetensors checkpoint shards:  56% Completed | 22/39 [00:24<00:20,  1.23s/it]
+Loading safetensors checkpoint shards:  59% Completed | 23/39 [00:26<00:19,  1.23s/it]
+Loading safetensors checkpoint shards:  62% Completed | 24/39 [00:27<00:18,  1.25s/it]
+Loading safetensors checkpoint shards:  64% Completed | 25/39 [00:28<00:17,  1.24s/it]
+Loading safetensors checkpoint shards:  67% Completed | 26/39 [00:29<00:16,  1.24s/it]
+Loading safetensors checkpoint shards:  69% Completed | 27/39 [00:31<00:14,  1.22s/it]
+Loading safetensors checkpoint shards:  72% Completed | 28/39 [00:32<00:13,  1.20s/it]
+Loading safetensors checkpoint shards:  74% Completed | 29/39 [00:33<00:11,  1.18s/it]
+Loading safetensors checkpoint shards:  77% Completed | 30/39 [00:34<00:10,  1.22s/it]
+Loading safetensors checkpoint shards:  79% Completed | 31/39 [00:36<00:10,  1.27s/it]
+Loading safetensors checkpoint shards:  82% Completed | 32/39 [00:37<00:08,  1.27s/it]
+Loading safetensors checkpoint shards:  85% Completed | 33/39 [00:38<00:07,  1.27s/it]
+Loading safetensors checkpoint shards:  87% Completed | 34/39 [00:39<00:06,  1.26s/it]
+Loading safetensors checkpoint shards:  90% Completed | 35/39 [00:41<00:04,  1.24s/it]
+Loading safetensors checkpoint shards:  92% Completed | 36/39 [00:42<00:03,  1.18s/it]
+Loading safetensors checkpoint shards:  95% Completed | 37/39 [00:43<00:02,  1.18s/it]
+Loading safetensors checkpoint shards:  97% Completed | 38/39 [00:44<00:01,  1.08s/it]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [00:44<00:00,  1.19it/s]
+Loading safetensors checkpoint shards: 100% Completed | 39/39 [00:44<00:00,  1.14s/it]
+
+2026-11-24 23:02:40,732 - WARNING - core.py:6247 - flashinfer.jit: the single torch.Tensor return type is deprecated and will be replaced with List[torch.Tensor] in the v0.8.0.
+2026-11-24 23:02:46,848 - INFO - autotuner.py:1121 - flashinfer.jit: [Autotuner]: Autotuning process starts ...
+2026-11-24 23:02:46,868 - INFO - autotune_cache.py:582 - flashinfer.jit: [Autotuner]: Managed autotune cache attached for this process: ManagedAutotuneCache(env_dir='/root/.cache/flashinfer/autotune/v2/bc195123ab68c5ab', hits=0, misses=0)
+2026-11-24 23:02:46,870 - INFO - autotune_cache.py:630 - flashinfer.jit: [Autotuner]: Preloaded 22/22 managed cache entries into memory
+2026-11-24 23:02:49,993 - INFO - autotuner.py:2368 - flashinfer.jit: [Autotuner]: Config cache hit for flashinfer::trtllm_fp8_block_scale_moe (runner=MoERunner, source=managed cache)
+2026-11-24 23:02:51,030 - INFO - autotuner.py:1146 - flashinfer.jit: [Autotuner]: Autotuning process ends
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/54 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   2%|▏         | 1/54 [00:00<00:18,  2.90it/s]Capturing CUDA graphs (PIECEWISE):   4%|▎         | 2/54 [00:00<00:18,  2.85it/s]Capturing CUDA graphs (PIECEWISE):   6%|▌         | 3/54 [00:01<00:17,  2.89it/s]Capturing CUDA graphs (PIECEWISE):   7%|▋         | 4/54 [00:01<00:16,  2.96it/s]Capturing CUDA graphs (PIECEWISE):   9%|▉         | 5/54 [00:01<00:16,  2.93it/s]Capturing CUDA graphs (PIECEWISE):  11%|█         | 6/54 [00:02<00:16,  2.94it/s]Capturing CUDA graphs (PIECEWISE):  13%|█▎        | 7/54 [00:02<00:16,  2.87it/s]Capturing CUDA graphs (PIECEWISE):  15%|█▍        | 8/54 [00:02<00:15,  3.01it/s]Capturing CUDA graphs (PIECEWISE):  17%|█▋        | 9/54 [00:03<00:15,  2.97it/s]Capturing CUDA graphs (PIECEWISE):  19%|█▊        | 10/54 [00:03<00:14,  2.99it/s]Capturing CUDA graphs (PIECEWISE):  20%|██        | 11/54 [00:03<00:13,  3.07it/s]Capturing CUDA graphs (PIECEWISE):  22%|██▏       | 12/54 [00:03<00:13,  3.14it/s]Capturing CUDA graphs (PIECEWISE):  24%|██▍       | 13/54 [00:04<00:12,  3.25it/s]Capturing CUDA graphs (PIECEWISE):  26%|██▌       | 14/54 [00:04<00:12,  3.29it/s]Capturing CUDA graphs (PIECEWISE):  28%|██▊       | 15/54 [00:04<00:11,  3.32it/s]Capturing CUDA graphs (PIECEWISE):  30%|██▉       | 16/54 [00:05<00:11,  3.34it/s]Capturing CUDA graphs (PIECEWISE):  31%|███▏      | 17/54 [00:05<00:10,  3.43it/s]Capturing CUDA graphs (PIECEWISE):  33%|███▎      | 18/54 [00:05<00:09,  3.71it/s]Capturing CUDA graphs (PIECEWISE):  35%|███▌      | 19/54 [00:05<00:10,  3.47it/s]Capturing CUDA graphs (PIECEWISE):  37%|███▋      | 20/54 [00:06<00:09,  3.55it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 21/54 [00:06<00:09,  3.61it/s]Capturing CUDA graphs (PIECEWISE):  41%|████      | 22/54 [00:06<00:08,  3.82it/s]Capturing CUDA graphs (PIECEWISE):  43%|████▎     | 23/54 [00:07<00:08,  3.76it/s]Capturing CUDA graphs (PIECEWISE):  44%|████▍     | 24/54 [00:07<00:08,  3.51it/s]Capturing CUDA graphs (PIECEWISE):  46%|████▋     | 25/54 [00:07<00:08,  3.57it/s]Capturing CUDA graphs (PIECEWISE):  48%|████▊     | 26/54 [00:07<00:07,  3.68it/s]Capturing CUDA graphs (PIECEWISE):  50%|█████     | 27/54 [00:08<00:06,  3.87it/s]Capturing CUDA graphs (PIECEWISE):  52%|█████▏    | 28/54 [00:08<00:06,  3.99it/s]Capturing CUDA graphs (PIECEWISE):  54%|█████▎    | 29/54 [00:08<00:06,  4.14it/s]Capturing CUDA graphs (PIECEWISE):  56%|█████▌    | 30/54 [00:08<00:05,  4.23it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 31/54 [00:08<00:05,  4.42it/s]Capturing CUDA graphs (PIECEWISE):  59%|█████▉    | 32/54 [00:09<00:05,  4.34it/s]Capturing CUDA graphs (PIECEWISE):  61%|██████    | 33/54 [00:09<00:04,  4.20it/s]Capturing CUDA graphs (PIECEWISE):  63%|██████▎   | 34/54 [00:09<00:04,  4.06it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 35/54 [00:10<00:04,  3.95it/s]Capturing CUDA graphs (PIECEWISE):  67%|██████▋   | 36/54 [00:10<00:04,  4.15it/s]Capturing CUDA graphs (PIECEWISE):  69%|██████▊   | 37/54 [00:10<00:03,  4.38it/s]Capturing CUDA graphs (PIECEWISE):  70%|███████   | 38/54 [00:10<00:03,  4.02it/s]Capturing CUDA graphs (PIECEWISE):  72%|███████▏  | 39/54 [00:10<00:03,  4.24it/s]Capturing CUDA graphs (PIECEWISE):  74%|███████▍  | 40/54 [00:11<00:04,  3.24it/s]Capturing CUDA graphs (PIECEWISE):  76%|███████▌  | 41/54 [00:11<00:03,  3.62it/s]Capturing CUDA graphs (PIECEWISE):  78%|███████▊  | 42/54 [00:11<00:03,  3.94it/s]Capturing CUDA graphs (PIECEWISE):  80%|███████▉  | 43/54 [00:12<00:02,  4.17it/s]Capturing CUDA graphs (PIECEWISE):  81%|████████▏ | 44/54 [00:12<00:02,  4.31it/s]Capturing CUDA graphs (PIECEWISE):  83%|████████▎ | 45/54 [00:12<00:01,  4.54it/s]Capturing CUDA graphs (PIECEWISE):  85%|████████▌ | 46/54 [00:12<00:01,  4.61it/s]Capturing CUDA graphs (PIECEWISE):  87%|████████▋ | 47/54 [00:12<00:01,  4.34it/s]Capturing CUDA graphs (PIECEWISE):  89%|████████▉ | 48/54 [00:13<00:01,  4.49it/s]Capturing CUDA graphs (PIECEWISE):  91%|█████████ | 49/54 [00:13<00:01,  4.66it/s]Capturing CUDA graphs (PIECEWISE):  93%|█████████▎| 50/54 [00:13<00:00,  4.83it/s]Capturing CUDA graphs (PIECEWISE):  94%|█████████▍| 51/54 [00:13<00:00,  4.83it/s]Capturing CUDA graphs (PIECEWISE):  96%|█████████▋| 52/54 [00:13<00:00,  4.75it/s]Capturing CUDA graphs (PIECEWISE):  98%|█████████▊| 53/54 [00:14<00:00,  4.71it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 54/54 [00:14<00:00,  4.86it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 54/54 [00:14<00:00,  3.77it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/37 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):   3%|▎         | 1/37 [00:00<00:07,  5.06it/s]Capturing CUDA graphs (FULL):   5%|▌         | 2/37 [00:00<00:07,  4.86it/s]Capturing CUDA graphs (FULL):   8%|▊         | 3/37 [00:00<00:06,  5.20it/s]Capturing CUDA graphs (FULL):  11%|█         | 4/37 [00:00<00:06,  5.33it/s]Capturing CUDA graphs (FULL):  14%|█▎        | 5/37 [00:00<00:06,  5.31it/s]Capturing CUDA graphs (FULL):  16%|█▌        | 6/37 [00:01<00:06,  5.15it/s]Capturing CUDA graphs (FULL):  19%|█▉        | 7/37 [00:01<00:05,  5.13it/s]Capturing CUDA graphs (FULL):  22%|██▏       | 8/37 [00:01<00:05,  5.10it/s]Capturing CUDA graphs (FULL):  24%|██▍       | 9/37 [00:01<00:05,  5.16it/s]Capturing CUDA graphs (FULL):  27%|██▋       | 10/37 [00:01<00:05,  5.00it/s]Capturing CUDA graphs (FULL):  30%|██▉       | 11/37 [00:02<00:05,  5.18it/s]Capturing CUDA graphs (FULL):  32%|███▏      | 12/37 [00:02<00:04,  5.26it/s]Capturing CUDA graphs (FULL):  35%|███▌      | 13/37 [00:02<00:04,  5.38it/s]Capturing CUDA graphs (FULL):  38%|███▊      | 14/37 [00:02<00:04,  5.51it/s]Capturing CUDA graphs (FULL):  41%|████      | 15/37 [00:02<00:03,  5.58it/s]Capturing CUDA graphs (FULL):  43%|████▎     | 16/37 [00:03<00:03,  5.52it/s]Capturing CUDA graphs (FULL):  46%|████▌     | 17/37 [00:03<00:03,  5.59it/s]Capturing CUDA graphs (FULL):  49%|████▊     | 18/37 [00:03<00:03,  5.47it/s]Capturing CUDA graphs (FULL):  51%|█████▏    | 19/37 [00:03<00:03,  5.56it/s]Capturing CUDA graphs (FULL):  54%|█████▍    | 20/37 [00:03<00:03,  5.40it/s]Capturing CUDA graphs (FULL):  57%|█████▋    | 21/37 [00:03<00:02,  5.35it/s]Capturing CUDA graphs (FULL):  59%|█████▉    | 22/37 [00:04<00:02,  5.42it/s]Capturing CUDA graphs (FULL):  62%|██████▏   | 23/37 [00:04<00:02,  5.41it/s]Capturing CUDA graphs (FULL):  65%|██████▍   | 24/37 [00:04<00:02,  5.49it/s]Capturing CUDA graphs (FULL):  68%|██████▊   | 25/37 [00:04<00:02,  5.53it/s]Capturing CUDA graphs (FULL):  70%|███████   | 26/37 [00:04<00:01,  5.59it/s]Capturing CUDA graphs (FULL):  73%|███████▎  | 27/37 [00:05<00:01,  5.47it/s]Capturing CUDA graphs (FULL):  76%|███████▌  | 28/37 [00:05<00:01,  5.49it/s]Capturing CUDA graphs (FULL):  78%|███████▊  | 29/37 [00:05<00:01,  5.55it/s]Capturing CUDA graphs (FULL):  81%|████████  | 30/37 [00:05<00:01,  5.61it/s]Capturing CUDA graphs (FULL):  84%|████████▍ | 31/37 [00:05<00:01,  5.34it/s]Capturing CUDA graphs (FULL):  86%|████████▋ | 32/37 [00:05<00:00,  5.36it/s]Capturing CUDA graphs (FULL):  89%|████████▉ | 33/37 [00:06<00:00,  5.48it/s]Capturing CUDA graphs (FULL):  92%|█████████▏| 34/37 [00:06<00:00,  5.45it/s]Capturing CUDA graphs (FULL):  95%|█████████▍| 35/37 [00:06<00:00,  5.46it/s]Capturing CUDA graphs (FULL):  97%|█████████▋| 36/37 [00:06<00:00,  5.61it/s]Capturing CUDA graphs (FULL): 100%|██████████| 37/37 [00:06<00:00,  5.66it/s]Capturing CUDA graphs (FULL): 100%|██████████| 37/37 [00:06<00:00,  5.41it/s]
+/vol/ablation/judge/run_judge_qwen.py:87: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  judged_at=datetime.datetime.utcnow().isoformat() + "Z",

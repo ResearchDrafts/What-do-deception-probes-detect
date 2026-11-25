@@ -1,0 +1,51 @@
+{
+  "experiment": "2_ablation",
+  "layer_block_output": 21,
+  "representation": "block21 output, pre-final-norm",
+  "positions": "all (prompt + reply)",
+  "formula": "h' = h - (h\u00b7d\u0302)d\u0302, fp32 math, cast to bf16",
+  "d_hat_sha16": "f14e75ed4a307674",
+  "weight_fingerprint": "b10be5ffcc64f059",
+  "exact_sha_block21_norm": "445457608e12b14a",
+  "validation": [
+    {
+      "prompt": 0,
+      "n_positions": 17,
+      "median_|h\u00b7u|_before": 0.08193456381559372,
+      "max_|h'\u00b7u|_after": 0.004432797431945801,
+      "max_rel_residual_|h'\u00b7u|/||h'||": 5.2857911214232445e-05,
+      "positions_ablated_frac": 1.0,
+      "off_axis_change_rel": 0.028631364926695824,
+      "post_norm_|cos|_before": 0.010572168044745922,
+      "post_norm_|cos|_after": 0.0017164027085527778,
+      "max_|\u0394logit|_ablated_vs_base": 0.34375,
+      "max_|\u0394logit|_after_removal": 0.0
+    },
+    {
+      "prompt": 1,
+      "n_positions": 16,
+      "median_|h\u00b7u|_before": 0.17949774861335754,
+      "max_|h'\u00b7u|_after": 0.004422783851623535,
+      "max_rel_residual_|h'\u00b7u|/||h'||": 5.587498435488669e-06,
+      "positions_ablated_frac": 1.0,
+      "off_axis_change_rel": 0.028478218242526054,
+      "post_norm_|cos|_before": 0.018880441784858704,
+      "post_norm_|cos|_after": 0.0018095558043569326,
+      "max_|\u0394logit|_ablated_vs_base": 0.34375,
+      "max_|\u0394logit|_after_removal": 0.0
+    }
+  ],
+  "passed": {
+    "unit_norm": true,
+    "residual_near_zero": true,
+    "all_positions_ablated": true,
+    "only_d_hat_removed": true,
+    "ablation_changes_output": true,
+    "clean_after_removal": true,
+    "hooks_removed": true,
+    "weights_unchanged": true
+  },
+  "created": "2026-11-24 19:52:51",
+  "tokenisation": "Apollo-exact: consecutive same-role messages concatenated with '' before the chat template (affects S0002 only). d_hat kept as built in Exp 1 (S0002 prompts there were unmerged; documented limitation).",
+  "model_dtype": "torch.float16"
+}

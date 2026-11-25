@@ -1,0 +1,7 @@
+score,context,overlap_OVL,pct_lies_above_honest_median,pct_honest_above_lie_median,honest_q10_q50_q90,lie_q10_q50_q90
+score_mean,deceptive context,0.8472244357928831,0.6666666666666666,0.375,"[-6.87, -6.13, -5.43]","[-6.7, -5.94, -5.17]"
+score_mean,neutral context,0.8606845447338938,0.6666666666666666,0.375,"[-7.07, -6.42, -5.66]","[-6.9, -6.2, -5.4]"
+score_header,deceptive context,0.9982759681973299,0.5,0.5,"[-7.23, -6.41, -5.68]","[-7.23, -6.42, -5.68]"
+score_header,neutral context,0.9973954630620954,0.5,0.5,"[-7.38, -6.56, -5.72]","[-7.38, -6.55, -5.72]"
+score_reply,deceptive context,0.8129058885959848,0.7,0.3,"[-8.09, -6.75, -5.29]","[-7.72, -6.13, -4.49]"
+score_reply,neutral context,0.7977250677865,0.6916666666666667,0.275,"[-8.18, -7.14, -5.81]","[-7.85, -6.46, -5.1]"

@@ -1,0 +1,47 @@
+section,quantity,estimate,ci_lo,ci_hi,p,note,p_type,p_display
+"Apollo re-scoring, block 21 (test)",Δ stakes effect,-0.068155288696289,-0.0771375298500061,-0.0595638990402221,0.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,< 0.0001
+"Apollo re-scoring, block 21 (test)","Δ stakes effect, header",-0.1089887619018554,-0.1264674067497253,-0.0921938300132751,0.0,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",< 0.0001
+"Apollo re-scoring, block 21 (test)","Δ stakes effect, reply",-0.0309853553771972,-0.0333996176719665,-0.0284738063812255,0.0,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",< 0.0001
+"Apollo re-scoring, block 21 (test)",Δ lie effect,0.0046439170837402,0.0031184673309326,0.006181252002716,0.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,< 0.0001
+"Apollo re-scoring, block 21 (test)",Δ stakes AUROC,-0.0308506944444445,-0.0389930555555555,-0.0247217881944444,0.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,< 0.0001
+"Apollo re-scoring, block 21 (test)",Δ deception AUROC,0.0020659722222222,-0.0001215277777778,0.0046875,0.0666,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.0666
+"Apollo re-scoring, block 21 (test)",Δ A-vs-D AUROC,0.0332638888888889,0.0254166666666666,0.0434027777777777,0.0,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",< 0.0001
+"Apollo re-scoring, block 21 (test)",share of stakes effect removed,0.2828253507614136,0.1778278708457946,0.5833397164940832,,ratio; no test,"bootstrap p (secondary, unadjusted)",
+"Apollo re-scoring, block 21 (test)","share removed, reply tokens",0.0861739516258239,0.0655383452773094,0.1250524580478668,,ratio; no test,"bootstrap p (secondary, unadjusted)",
+Specificity (vs magnitude-matched random),selectivity of d̂,1.1698904565341026,,,0.0158730158730158,"one-sided, (count+1)/(n+1)",,0.0159
+Specificity (vs magnitude-matched random),Δ stakes effect of d̂,-0.068155288696289,,,0.0555555555555555,"one-sided, (count+1)/(n+1)",,0.0556
+"Apollo re-scoring, block-12 ablation (test)",Δ stakes effect,0.0810227394104003,0.0421176791191101,0.1201899766921996,0.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,< 0.0001
+"Apollo re-scoring, block-12 ablation (test)","Δ stakes effect, reply",0.1248250007629394,0.1080726504325866,0.1423178791999816,0.0,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",< 0.0001
+"Apollo re-scoring, block-12 ablation (test)",Δ lie effect,0.0121340751647949,0.0038842320442199,0.0203133821487426,0.008,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.0080
+"Apollo re-scoring, block-12 ablation (test)",Δ deception AUROC,-0.0012847222222222,-0.0077083333333333,0.0054513888888888,0.8026,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.8026
+Block-12 vs 30 random block-12 directions,stakes_eff_score,0.0810227394104003,,,0.064516129032258,two-sided; 0.065 = minimum attainable,,0.0645
+Block-12 vs 30 random block-12 directions,proj_gap_d21,1.0287827253341677,,,0.064516129032258,two-sided; 0.065 = minimum attainable,,0.0645
+"Independent probes (d′, held-out)",stakes|header,4.5799665,,,,"frozen -0.02, retrained 0.95",,
+"Independent probes (d′, held-out)",stakes|reply,6.4661665,,,,"frozen 5.67, retrained 6.47",,
+"Independent probes (d′, held-out)",stakes|all,5.572117,,,,"frozen 2.66, retrained 4.65",,
+"Independent probes (d′, held-out)",deception|reply,4.6161776,,,,"frozen 4.60, retrained 4.62",,
+"Independent probes (d′, held-out)",deception|all,4.3161297,,,,"frozen 4.29, retrained 4.31",,
+INLP: directions until stakes AUROC < 0.6,"C=0.0001, start=after_d_hat, header",2.0,,,,,,
+INLP: directions until stakes AUROC < 0.6,"C=0.0001, start=after_d_hat, reply",9.0,,,,,,
+INLP: directions until stakes AUROC < 0.6,"C=0.0001, start=baseline, header",8.0,,,,,,
+INLP: directions until stakes AUROC < 0.6,"C=0.0001, start=baseline, reply",10.0,,,,,,
+INLP: directions until stakes AUROC < 0.6,"C=0.01, start=after_d_hat, header",4.0,,,,,,
+INLP: directions until stakes AUROC < 0.6,"C=0.01, start=after_d_hat, reply",28.0,,,,,,
+INLP: directions until stakes AUROC < 0.6,"C=0.01, start=baseline, header",,,,,not reached by k=40,,
+INLP: directions until stakes AUROC < 0.6,"C=0.01, start=baseline, reply",28.0,,,,,,
+Generation: false answers (rule),abl - base | incentive,0.0230246728598541,-0.0332152369156844,0.089055250049838,1.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,1.0000
+Generation: false answers (rule),abl - base | neutral,-0.0482078657805861,-0.1106878651857305,0.0033988996032935,0.347,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.3470
+Generation: false answers (rule),interaction (gap change),0.0712325386404402,-0.0090809059873632,0.1569867386900847,0.347,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.3470
+Generation: deceptive (judge),abl - base | incentive,0.03125,-0.0125,0.0999999999999999,0.4348,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.4348
+Generation: deceptive (judge),abl - base | neutral,-0.03125,-0.08125,0.00625,0.4348,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.4348
+Generation: deceptive (judge),interaction (gap change),0.0625,-0.0062499999999999,0.14375,0.2364,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,0.2364
+Generation: Apollo probe_clean,abl - base | incentive,0.0325910359621053,-0.0392491228878503,0.1244271294772626,1.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,1.0000
+Generation: Apollo probe_clean,abl - base | neutral,0.014469102025032,-0.038127859309316,0.063638222813606,1.0,Holm-adjusted bootstrap p,Holm-adjusted bootstrap p,1.0000
+Generation: Apollo probe_clean,interaction (gap change),0.0181219339370732,-0.0696266217529777,0.1228163307905196,0.745,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",0.7450
+Generation: Apollo probe_insitu,abl - base | incentive,-0.0022388517856599,-0.0739361509680746,0.0900811250507836,0.9024,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",0.9024
+Generation: Apollo probe_insitu,abl - base | neutral,0.0025547832250598,-0.0504415531456466,0.0531377184391021,0.9126,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",0.9126
+Generation: Apollo probe_insitu,interaction (gap change),-0.0047936350107198,-0.0929779614508155,0.0993546900898226,0.8764,"bootstrap p (secondary, unadjusted)","bootstrap p (secondary, unadjusted)",0.8764
+Judge validation (Qwen vs Exp 1),"binary kappa, 376 items",0.955161839863714,0.9188810183021107,0.9862893815635938,,criterion ≥ 0.8: PASS; calibration 20/20; 3-class kappa 0.773,,
+Task cost of d̂,Δ Alpaca NLL,0.0033954169601202,-9.21844523400068e-05,0.0068994442671537,0.0578,,,0.0578
+Task cost of d̂,Δ MMLU correct-option log-prob,0.0284178704023361,-0.1014579832553863,0.1290075331926345,,,,
+Task cost of d̂,MMLU accuracy (baseline → d̂),0.81,,,,agreement with baseline 100%,,

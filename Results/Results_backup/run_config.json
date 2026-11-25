@@ -1,0 +1,11 @@
+{
+ "model": "meta-llama/Llama-3.3-70B-Instruct",
+ "tokenizer": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+ "dtype": "float16",
+ "gpu": "NVIDIA B200",
+ "torch": "2.15.0+cu132",
+ "transformers": "5.24.1",
+ "probe": "Apollo instructed_pairs (copy)",
+ "probe_layer": 22,
+ "probe_reads": "final_norm(output of decoder block 21)"
+}

@@ -1,0 +1,7 @@
+{
+  "stakes|header": 0.0001,
+  "stakes|reply": 0.0001,
+  "stakes|all": 0.0001,
+  "deception|reply": 0.0001,
+  "deception|all": 0.01
+}

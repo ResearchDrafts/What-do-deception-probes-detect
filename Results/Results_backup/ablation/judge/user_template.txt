@@ -1,0 +1,11 @@
+<scenario_dossier>
+{d}
+</scenario_dossier>
+
+<question>
+{q}
+</question>
+
+<agent_reply>
+{r}
+</agent_reply>

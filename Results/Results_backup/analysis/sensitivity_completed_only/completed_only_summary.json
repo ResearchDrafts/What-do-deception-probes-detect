@@ -1,0 +1,65 @@
+{
+  "n_rows_completed": 1537,
+  "reproduction_pass": true,
+  "primary_contrast_changes": [
+    {
+      "measure": "probe_insitu",
+      "contrast": "persistent k=-2 vs baseline",
+      "original": "-0.112 [-0.178,-0.051]*",
+      "completed": "-0.109 [-0.196,-0.022]",
+      "change": "lost Holm sig."
+    },
+    {
+      "measure": "probe_insitu",
+      "contrast": "persistent k=+1 vs baseline",
+      "original": "+0.148 [+0.108,+0.189]*",
+      "completed": "+0.100 [+0.039,+0.165]",
+      "change": "lost Holm sig."
+    }
+  ],
+  "slope_changes": [
+    {
+      "measure": "probe_insitu",
+      "family": "prefill_only",
+      "original": "+0.013 [+0.003,+0.023]*",
+      "completed": "+0.013 [+0.000,+0.026]",
+      "change": "lost Holm sig."
+    },
+    {
+      "measure": "probe_clean",
+      "family": "persistent",
+      "original": "-0.023 [-0.039,-0.008]*",
+      "completed": "-0.020 [-0.040,+0.001]",
+      "change": "lost Holm sig."
+    },
+    {
+      "measure": "rule_false_answer",
+      "family": "prefill_only",
+      "original": "+0.013 [+0.004,+0.023]*",
+      "completed": "+0.012 [+0.002,+0.024]",
+      "change": "lost Holm sig."
+    },
+    {
+      "measure": "judge_deceptive",
+      "family": "prefill_only",
+      "original": "+0.013 [+0.003,+0.024]*",
+      "completed": "+0.012 [-0.002,+0.026]",
+      "change": "lost Holm sig."
+    }
+  ],
+  "completion_rate_by_condition": {
+    "none|incentive|0": 0.85625,
+    "persistent|neutral|-1": 0.81875,
+    "persistent|neutral|-2": 0.81875,
+    "persistent|neutral|-4": 0.9375,
+    "persistent|neutral|0": 0.75625,
+    "persistent|neutral|1": 0.775,
+    "persistent|neutral|2": 0.775,
+    "persistent|neutral|4": 0.75625,
+    "prefill_only|neutral|-2": 0.74375,
+    "prefill_only|neutral|-4": 0.75625,
+    "prefill_only|neutral|2": 0.79375,
+    "prefill_only|neutral|4": 0.81875
+  },
+  "caveat": "Completion rates differ by condition (e.g. 94% at k=-4 vs 76% at baseline), so completed-only compares selected subsets; this is a sensitivity analysis, not an unbiased re-estimate."
+}

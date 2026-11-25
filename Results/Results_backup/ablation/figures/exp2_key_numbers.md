@@ -1,0 +1,48 @@
+| section                                     | quantity                            |   estimate |    ci_lo |    ci_hi | p_display   | note                                                          |
+|:--------------------------------------------|:------------------------------------|-----------:|---------:|---------:|:------------|:--------------------------------------------------------------|
+| Apollo re-scoring, block 21 (test)          | Δ stakes effect                     |    -0.0682 |  -0.0771 |  -0.0596 | < 0.0001    | Holm-adjusted bootstrap p                                     |
+| Apollo re-scoring, block 21 (test)          | Δ stakes effect, header             |    -0.109  |  -0.1265 |  -0.0922 | < 0.0001    | bootstrap p (secondary, unadjusted)                           |
+| Apollo re-scoring, block 21 (test)          | Δ stakes effect, reply              |    -0.031  |  -0.0334 |  -0.0285 | < 0.0001    | bootstrap p (secondary, unadjusted)                           |
+| Apollo re-scoring, block 21 (test)          | Δ lie effect                        |     0.0046 |   0.0031 |   0.0062 | < 0.0001    | Holm-adjusted bootstrap p                                     |
+| Apollo re-scoring, block 21 (test)          | Δ stakes AUROC                      |    -0.0309 |  -0.039  |  -0.0247 | < 0.0001    | Holm-adjusted bootstrap p                                     |
+| Apollo re-scoring, block 21 (test)          | Δ deception AUROC                   |     0.0021 |  -0.0001 |   0.0047 | 0.0666      | Holm-adjusted bootstrap p                                     |
+| Apollo re-scoring, block 21 (test)          | Δ A-vs-D AUROC                      |     0.0333 |   0.0254 |   0.0434 | < 0.0001    | bootstrap p (secondary, unadjusted)                           |
+| Apollo re-scoring, block 21 (test)          | share of stakes effect removed      |     0.2828 |   0.1778 |   0.5833 |             | ratio; no test                                                |
+| Apollo re-scoring, block 21 (test)          | share removed, reply tokens         |     0.0862 |   0.0655 |   0.1251 |             | ratio; no test                                                |
+| Specificity (vs magnitude-matched random)   | selectivity of d̂                    |     1.1699 | nan      | nan      | 0.0159      | one-sided, (count+1)/(n+1)                                    |
+| Specificity (vs magnitude-matched random)   | Δ stakes effect of d̂                |    -0.0682 | nan      | nan      | 0.0556      | one-sided, (count+1)/(n+1)                                    |
+| Apollo re-scoring, block-12 ablation (test) | Δ stakes effect                     |     0.081  |   0.0421 |   0.1202 | < 0.0001    | Holm-adjusted bootstrap p                                     |
+| Apollo re-scoring, block-12 ablation (test) | Δ stakes effect, reply              |     0.1248 |   0.1081 |   0.1423 | < 0.0001    | bootstrap p (secondary, unadjusted)                           |
+| Apollo re-scoring, block-12 ablation (test) | Δ lie effect                        |     0.0121 |   0.0039 |   0.0203 | 0.0080      | Holm-adjusted bootstrap p                                     |
+| Apollo re-scoring, block-12 ablation (test) | Δ deception AUROC                   |    -0.0013 |  -0.0077 |   0.0055 | 0.8026      | Holm-adjusted bootstrap p                                     |
+| Block-12 vs 30 random block-12 directions   | stakes_eff_score                    |     0.081  | nan      | nan      | 0.0645      | two-sided; 0.065 = minimum attainable                         |
+| Block-12 vs 30 random block-12 directions   | proj_gap_d21                        |     1.0288 | nan      | nan      | 0.0645      | two-sided; 0.065 = minimum attainable                         |
+| Independent probes (d′, held-out)           | stakes|header                       |     4.58   | nan      | nan      |             | frozen -0.02, retrained 0.95                                  |
+| Independent probes (d′, held-out)           | stakes|reply                        |     6.4662 | nan      | nan      |             | frozen 5.67, retrained 6.47                                   |
+| Independent probes (d′, held-out)           | stakes|all                          |     5.5721 | nan      | nan      |             | frozen 2.66, retrained 4.65                                   |
+| Independent probes (d′, held-out)           | deception|reply                     |     4.6162 | nan      | nan      |             | frozen 4.60, retrained 4.62                                   |
+| Independent probes (d′, held-out)           | deception|all                       |     4.3161 | nan      | nan      |             | frozen 4.29, retrained 4.31                                   |
+| INLP: directions until stakes AUROC < 0.6   | C=0.0001, start=after_d_hat, header |     2      | nan      | nan      |             |                                                               |
+| INLP: directions until stakes AUROC < 0.6   | C=0.0001, start=after_d_hat, reply  |     9      | nan      | nan      |             |                                                               |
+| INLP: directions until stakes AUROC < 0.6   | C=0.0001, start=baseline, header    |     8      | nan      | nan      |             |                                                               |
+| INLP: directions until stakes AUROC < 0.6   | C=0.0001, start=baseline, reply     |    10      | nan      | nan      |             |                                                               |
+| INLP: directions until stakes AUROC < 0.6   | C=0.01, start=after_d_hat, header   |     4      | nan      | nan      |             |                                                               |
+| INLP: directions until stakes AUROC < 0.6   | C=0.01, start=after_d_hat, reply    |    28      | nan      | nan      |             |                                                               |
+| INLP: directions until stakes AUROC < 0.6   | C=0.01, start=baseline, header      |   nan      | nan      | nan      |             | not reached by k=40                                           |
+| INLP: directions until stakes AUROC < 0.6   | C=0.01, start=baseline, reply       |    28      | nan      | nan      |             |                                                               |
+| Generation: false answers (rule)            | abl - base | incentive              |     0.023  |  -0.0332 |   0.0891 | 1.0000      | Holm-adjusted bootstrap p                                     |
+| Generation: false answers (rule)            | abl - base | neutral                |    -0.0482 |  -0.1107 |   0.0034 | 0.3470      | Holm-adjusted bootstrap p                                     |
+| Generation: false answers (rule)            | interaction (gap change)            |     0.0712 |  -0.0091 |   0.157  | 0.3470      | Holm-adjusted bootstrap p                                     |
+| Generation: deceptive (judge)               | abl - base | incentive              |     0.0312 |  -0.0125 |   0.1    | 0.4348      | Holm-adjusted bootstrap p                                     |
+| Generation: deceptive (judge)               | abl - base | neutral                |    -0.0312 |  -0.0812 |   0.0062 | 0.4348      | Holm-adjusted bootstrap p                                     |
+| Generation: deceptive (judge)               | interaction (gap change)            |     0.0625 |  -0.0062 |   0.1438 | 0.2364      | Holm-adjusted bootstrap p                                     |
+| Generation: Apollo probe_clean              | abl - base | incentive              |     0.0326 |  -0.0392 |   0.1244 | 1.0000      | Holm-adjusted bootstrap p                                     |
+| Generation: Apollo probe_clean              | abl - base | neutral                |     0.0145 |  -0.0381 |   0.0636 | 1.0000      | Holm-adjusted bootstrap p                                     |
+| Generation: Apollo probe_clean              | interaction (gap change)            |     0.0181 |  -0.0696 |   0.1228 | 0.7450      | bootstrap p (secondary, unadjusted)                           |
+| Generation: Apollo probe_insitu             | abl - base | incentive              |    -0.0022 |  -0.0739 |   0.0901 | 0.9024      | bootstrap p (secondary, unadjusted)                           |
+| Generation: Apollo probe_insitu             | abl - base | neutral                |     0.0026 |  -0.0504 |   0.0531 | 0.9126      | bootstrap p (secondary, unadjusted)                           |
+| Generation: Apollo probe_insitu             | interaction (gap change)            |    -0.0048 |  -0.093  |   0.0994 | 0.8764      | bootstrap p (secondary, unadjusted)                           |
+| Judge validation (Qwen vs Exp 1)            | binary kappa, 376 items             |     0.9552 |   0.9189 |   0.9863 |             | criterion ≥ 0.8: PASS; calibration 20/20; 3-class kappa 0.773 |
+| Task cost of d̂                              | Δ Alpaca NLL                        |     0.0034 |  -0.0001 |   0.0069 | 0.0578      |                                                               |
+| Task cost of d̂                              | Δ MMLU correct-option log-prob      |     0.0284 |  -0.1015 |   0.129  |             |                                                               |
+| Task cost of d̂                              | MMLU accuracy (baseline → d̂)        |     0.81   | nan      | nan      |             | agreement with baseline 100%                                  |

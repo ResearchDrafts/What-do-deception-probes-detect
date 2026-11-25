@@ -1,0 +1,17 @@
+{
+ "records": 1920,
+ "conditions": 12,
+ "seeds": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "records_per_condition": 160,
+ "records_per_scenario": 48,
+ "train_leakage": [],
+ "empty_replies": 0,
+ "prompts_rebuild_exactly": true,
+ "supporting_files_aligned": true,
+ "dossier_identical_from_both_versions": true
+}

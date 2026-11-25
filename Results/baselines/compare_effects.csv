@@ -1,0 +1,5 @@
+effect,probe_dz,judge_dz
+"lie effect, deceptive context (B-A)",0.8304468936479108,inf
+"lie effect, neutral context (D-C)",0.7257247140361824,inf
+"stakes effect, honest (A-C)",0.6447958667077818,
+"stakes effect, deceptive (B-D)",0.6828666423354156,
