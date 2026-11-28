@@ -1,5 +1,5 @@
 # What Does a Deception Probe Detect?
-
+[README NOT UPTO DATE: WILL UPDATE SOON]
 ## Demystifying Contextual and Response-Level Signals in Large Language Models
 
 This repository studies what a deception probe responds to when response honesty and the surrounding incentive context are varied independently. The central question is whether a probe score reflects deceptive response content, contextual stakes, or a mixture of both.
